@@ -1,0 +1,26 @@
+1. Create a file named data.csv.
+    Copy the provided CSV data from Canvas into data.csv.
+
+2. Use #include <iostream>, #include <fstream>, #include <sstream>, and #include <string>.
+
+3. Open data.csv using ifstream.
+    Check if the file opens correctly.
+
+4. Use a while loop with getline() to read each line.
+    Store each line into a string variable currentLine.
+
+5. Clear converter and set it to currentLine.
+    Use getline() to extract the first two numbers as strings (sNum1, sNum2).
+        Use another getline() to extract the third value as a string (text).
+
+6. Clear converter and reuse it.
+    Convert sNum1 and sNum2 to integers using stringstream.
+
+7. Add num1 and num2 and store it in sum.
+
+8. Use a for loop to print text exactly sum times.
+    Print a newline after each line.
+
+9. Close data.csv using inFile.close().
+
+
